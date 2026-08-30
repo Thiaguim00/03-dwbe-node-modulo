@@ -120,4 +120,74 @@ npm start
 
 ---
 
-# Exercícios 
+# Exercícios
+
+## 1: Cálculo de Área do Retângulo
+
+Implemente um algoritmo que leia a largura e a altura de um retângulo (em metros) a partir do teclado e exiba a sua área. O programa deve receber dois valores numéricos do usuário e realizar o cálculo.
+
+**Exemplo de saída:**
+```
+Informe a largura (m): 5
+Informe a altura (m): 3
+A área do retângulo é: 15 m²
+```
+
+---
+
+## 2: Conversor de Temperatura
+
+Crie um algoritmo que leia uma temperatura em Celsius a partir do teclado e a converta para Fahrenheit. A fórmula é: F = (C × 9/5) + 32.
+
+**Exemplo de saída:**
+```
+Informe a temperatura em Celsius: 25
+25°C corresponde a 77°F
+```
+
+---
+
+## 3: Cálculo de Média de Notas
+
+Implemente um algoritmo que leia várias notas de um aluno (valores de 0 a 10) e calcule a média aritmética. O algoritmo deve indicar se o aluno foi aprovado (média ≥ 6) ou reprovado. O algoritmo também deve validar as notas informadas no intervalo de 0 a 10.
+
+**Exemplo de saída:**
+```
+Informe a primeira nota: 7
+Informe a segunda nota: 8
+Informe a terceira nota: 9
+Média: 8
+Situação: Aprovado
+```
+
+---
+
+## 4: Calculadora de IMC (Índice de Massa Corporal)
+
+Crie um algoritmo que leia o peso (em kg) e a altura (em metros) de uma pessoa e calcule seu IMC. A fórmula é: IMC = peso / (altura × altura). O programa deve também classificar o IMC de acordo com a seguinte tabela:
+- IMC < 18,5: abaixo do peso
+- IMC entre 18,5 e 24,9: peso normal
+- IMC entre 25 e 29,9: sobrepeso
+- IMC ≥ 30: obesidade
+
+**Exemplo de saída:**
+```
+Informe seu peso (kg): 70
+Informe sua altura (m): 1.75
+Seu IMC é: 22.86
+Classificação: peso normal
+```
+
+---
+
+## 5: Cálculo de Salário com Desconto de Imposto
+
+Implemente um algoritmo que leia o salário bruto de um funcionário e calcule o salário líquido com base em uma alíquota de imposto de renda (em percentual) fornecida pelo usuário. O programa deve exibir tanto o valor do imposto quanto o salário líquido.
+
+**Exemplo de saída:**
+```
+Informe o salário bruto (R$): 3000
+Informe a alíquota de imposto (%): 15
+Valor do imposto (R$): 450
+Salário líquido (R$): 2550
+```
